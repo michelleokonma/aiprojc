@@ -1,0 +1,189 @@
+/* fonts
+font-family: "orbital", sans-serif;
+font-weight: 400;
+font-style: normal;
+
+font-family: "citizen", sans-serif;
+font-weight: 700;
+font-style: normal;
+*/
+
+@import url("https://use.typekit.net/zby4exq.css");
+
+/* CSS Document */
+
+body, nav, header, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, table, audio, video, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* nav */
+
+nav {
+	text-align: center;
+	font-size: 100%;
+	margin-bottom: 10px;
+	margin-top: 7px;
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+	padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+	color: #E7B595;
+}
+
+nav h {
+	color: #E76A1A;
+}
+
+/* body */
+
+body {
+	background-color: #5C3317;
+	color: #E7E4E2;
+	font-size: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 160%;
+	color: #F7A26C;
+	text-align: center;
+}
+
+h2 {
+	font-size: 160%;
+	color: #F7A26C;
+	text-align: center;
+}
+
+h3 a{
+	text-decoration: none;
+    display: block;
+	color: antiquewhite;
+}
+
+#container {
+	margin: 0 auto;
+	width: 75%;
+	background-color: #804720;
+	padding: 1em;
+	border-radius: 2em;
+	word-wrap: break-word;
+}
+
+/* imgs */
+
+#standing {
+	padding: 10px;
+	max-width: 20em;
+	border-radius: 2em;
+	float: right;
+}
+
+#head {
+	padding: 10px;
+	max-width: 20em;
+	border-radius: 2em;
+	float: left;
+}
+
+#comanche {
+	padding: 10px;
+	max-width: 20em;
+	border-radius: 2em;
+	float: left;
+}
+
+#red {
+	padding: 10px;
+	max-width: 20em;
+	border-radius: 2em;
+	float: right;
+}
+
+#yagibear {
+	padding: 10px;
+	max-width: 15em;
+	border-radius: 2em;
+	float: right;
+}
+
+#torbie {
+	padding: 10px;
+	max-width: 15em;
+	border-radius: 2em;
+	margin-left: 11em;
+}
+
+/* form */
+
+caption {
+	color: darkgrey;
+}
+
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 92%;
+	align-content: center;
+}
+
+form label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+	color: darkgray;
+}
+
+form input {
+	float: left;
+    width: 26em;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* footer */
+
+footer {
+	text-align: center;
+	color: #E7E4E2;
+	font-size: 100%;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline-block;
+	padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    display: block;
+	color: #E7B595;
+}
+
+footer h {
+	color: #E76A1A;
+}
+
